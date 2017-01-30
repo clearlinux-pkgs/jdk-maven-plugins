@@ -4,7 +4,7 @@
 #
 Name     : jdk-maven-plugins
 Version  : 28
-Release  : 1
+Release  : 2
 URL      : http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28-source-release.zip
 Source0  : http://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/28/maven-plugins-28-source-release.zip
 Summary  : No detailed summary available
@@ -30,6 +30,7 @@ BuildRequires : jdk-commons-io
 BuildRequires : jdk-commons-lang
 BuildRequires : jdk-commons-lang3
 BuildRequires : jdk-commons-logging
+BuildRequires : jdk-commons-parent
 BuildRequires : jdk-commons-validator
 BuildRequires : jdk-doxia
 BuildRequires : jdk-doxia-sitetools
